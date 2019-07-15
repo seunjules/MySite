@@ -31,7 +31,7 @@ class Work extends Component {
                   could be translated into front-end code
                 </li>
                 <li>
-                  Helped in testing, and resolving bugs in the code
+                  Helped in quality testing, and resolving bugs in the code
                 </li>
                 <li>
                   Integrated of front end and back end aspects of the web
