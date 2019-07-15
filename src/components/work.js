@@ -26,12 +26,12 @@ class Work extends Component {
                   into web based solutions.
                 </li>
                 <li>
-                  Identified performance improvement areas for clients,
+                  Identified performance improvement areas for the client
                   presented recommendations and performed rapid mock ups that
                   could be translated into front-end code
                 </li>
                 <li>
-                  Guide investigations and analysis of complex field problems
+                  Helped in testing, and resolving bugs in the code
                 </li>
                 <li>
                   Integrated of front end and back end aspects of the web

@@ -35,7 +35,7 @@ class About extends Component {
               <ul>
                 <li>JavaScript, HTML, and CSS</li>
                 <li>Python, FLASK, Node.js, Express</li>
-                <li>SQL, Knex, SQL Alchemy, </li>
+                <li>SQL, Knex, SQLAlchemy, </li>
               </ul>
             </div>
           </div>
@@ -52,7 +52,7 @@ class About extends Component {
                   topics
                 </li>
                 <li>
-                  Neural Networks: I am fascinated my neural networks. I am
+                  Machine learning and Artificial Intelligence; I am fascinated my neural networks. I am
                   currently attempting to build one to forecast stock prices
                 </li>
                 <li>
