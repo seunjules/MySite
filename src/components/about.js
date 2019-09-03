@@ -12,7 +12,7 @@ class About extends Component {
    
     return (
       <div className="projectsContainer" id="about">
-        <img src={banner} alt="banner" className="banner" />
+        <img src={banner} alt="banner" className="banner" loading = "eager" />
         <div className="container">
           <div className="leftSection">
             <div className="infoCard">
