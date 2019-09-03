@@ -215,3 +215,100 @@ button {
     text-shadow: none;
     
 }
+
+.banner {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+}
+
+body {
+  /* background-image: url("./components/backgroundBrown.jpg"); */
+  background-color: white;
+ }
+
+ .infoHeading {
+   background-color:#7f7e7e;
+   color: white;
+   padding: 5px;
+   font-weight: bolder;
+   padding: 10px;
+   font-size: 1.5rem
+ }
+
+ .infoContent {
+   background-color: white;
+   color: #262626;
+   padding: 10px;
+ }
+
+ .container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   background-color: rgba(255, 255, 255, 0.4);
+   width: 95%;
+   margin:  20px 0px 20px 0px;
+   text-align: left;
+ }
+
+ .leftSection {
+  width: auto;
+  margin: 20px;
+ }
+
+ .rightSection {
+  width: auto;
+  margin: 20px;
+}
+
+.infoCard {
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  -webkit-box-shadow: 3px 6px 18px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 6px 18px 1px rgba(0,0,0,0.75);
+box-shadow: 3px 6px 18px 1px rgba(0,0,0,0.75);
+}
+
+.footer {
+  background-color: #7f7e7e;
+  width: 95vw;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: flex-start
+
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
+.bold {
+  font-weight: bold;
+  font-style: italic;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 1185px) {
+ .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 95%;
+  margin:  20px 0px 20px 0px;
+  text-align: left;
+}
+
+}

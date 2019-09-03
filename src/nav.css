@@ -44,12 +44,9 @@
 }
 
 .white {
-    color: #fff;
+    color: black;
 }
 
-.bg-black-90 {
-    background-color: rgba(0, 0, 0, .9);
-}
 
 .pv3 {
     padding-top: 1rem;
