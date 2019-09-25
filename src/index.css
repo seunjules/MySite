@@ -1,16 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Seymour+One&display=swap");
+
 body {
   margin: 0;
-  font-family: "cinzel" "courier new", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: 'Seymour One', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: black;
-  color: white;
+  background:white;
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  font-size: 0.75em;
+  
 }
 
 html {
@@ -19,81 +20,9 @@ html {
   align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
 
-canvas {
-  min-height: 100%;
-}
-.homeContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0.9; 
-  min-height: 100vh;
- 
-}
 
-.projectsContainer {
- 
-  opacity: 0.9; 
-  min-height: 100vh;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  align-items: center;
- 
- 
-}
-
-.mainLinks {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  background: rgba(0, 0, 0, 0);
-}
-
-.leftText {
-  text-align: left;
-
-}
-
-.end {
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-
-.bold {
-  font-weight: bolder;
-}
-
-.close {
-  padding: 2px;
-  margin: 2px;
-}
-
-.grey {
-  color: grey;
-}
 
 ::-webkit-scrollbar {
-  width: 10px;
-  display: block;
-}
-
-::-webkit-scrollbar-track {
-  background: #555; 
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
-  outline: 1px solid slategrey;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: white; 
-}
+  display: none;
+  }
