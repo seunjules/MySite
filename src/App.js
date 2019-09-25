@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import "./nav.css"
 import Nav from "./nav";
 import About from "./components/about";
 import Projects from "./components/projects";
