@@ -15,7 +15,7 @@ class Project extends Component {
             alt="Tablet View"
             className="tabletView"
           ></img>
-          <div>
+          <div className = "tabletTextArea">
           <h2 className ="projectTitle">{this.props.title}</h2>
           <p>
             {this.props.firstText}

@@ -325,3 +325,7 @@ p {
   -webkit-text-fill-color: purple;
   cursor: pointer;
 }
+
+.tabletTextArea {
+  padding-left: 50px;
+}
