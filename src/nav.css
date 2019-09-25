@@ -19,7 +19,7 @@ h2 {
 .navText {
     background-color: #565656;
     color: transparent;
-    text-shadow: 5px 5px 8px rgba(255,255,255,0.7);
+    text-shadow: 5px 5px 8px rgba(255, 255, 255, 0.7);
     font-size: 120%;
     background-clip: text;
-  }
+}

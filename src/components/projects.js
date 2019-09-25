@@ -6,7 +6,7 @@ import onlineMarket3 from "../onlineMarketMobile.png";
 import cultivatr1 from "../cultivatr1.png";
 import cultivatr2 from "../cultivatr2.png";
 import cultivatr3 from "../cultivatr3.png";
-import constants from "./constants"
+import constants from "./constants";
 
 class Projects extends Component {
   constructor() {
@@ -15,7 +15,7 @@ class Projects extends Component {
 
   render() {
     return (
-      <div className="projects">
+      <div className="projects" id = "projects">
         <span className="header2">Projects:</span>
         <div className="projectContainer">
           <Project
@@ -24,7 +24,7 @@ class Projects extends Component {
             web={onlineMarket}
             title={"Jules Market"}
             firstText={constants.julesMarketBlurb}
-            secondText = {constants.julesMarketTech}
+            secondText={constants.julesMarketTech}
           />
           <Project
             mobile={cultivatr3}
@@ -32,7 +32,7 @@ class Projects extends Component {
             web={cultivatr1}
             title={"CultivatR"}
             firstText={constants.cultivatrBlurb}
-            secondText = {constants.cultivatrTech}
+            secondText={constants.cultivatrTech}
           />
         </div>
       </div>

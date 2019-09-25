@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import constants from "./constants"
-
+import constants from "./constants";
 
 class About extends Component {
   constructor() {
@@ -9,14 +8,14 @@ class About extends Component {
 
   render() {
     return (
-      <div className="about">
-      <span className ="header">About me:</span>
-           <div className = "aboutTextContainer"> <p className = "aboutText">{constants.about}</p>
-            </div>      
-             </div>
-         );
-       }
-     }
-     
+      <div className="about" id = "about" >
+        <span className="header">About me:</span>
+        <div className="aboutTextContainer">
+          <p className="aboutText">{constants.about}</p>
+        </div>
+      </div>
+    );
+  }
+}
 
 export default About;

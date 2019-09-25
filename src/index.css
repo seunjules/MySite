@@ -5,19 +5,20 @@ body {
   font-family: 'Seymour One', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background:white;
+  background: white;
   color: black;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 0.75em;
-  
+
 }
 
 html {
   display: flex;
   justify-content: center;
   align-items: center;
+  scroll-behavior: smooth;
 }
 
 
@@ -25,4 +26,4 @@ html {
 
 ::-webkit-scrollbar {
   display: none;
-  }
+}

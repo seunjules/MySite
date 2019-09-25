@@ -12,28 +12,28 @@ class Nav extends Component {
     return (
       <div className="nav">
       
-          <nav className="navText">
+          <nav className="">
         <span className="navItems link">  <i className="fa fa-angle-double-right fa-2x Arrow"></i> <a
-              className=""
+              className="navText"
               title="About"
               name="About"
-              onClick={() => handleView("projects")}
+              href="#about"
             >
               About
             </a></span>
             <span className="navItems link">  <i className="fa fa-angle-double-right fa-2x Arrow"></i>  <a
-              className=""
+              className="navText"
               title="Projects"
               name="Projects"
-              onClick={() => handleView("work")}
+              href="#projects"
             >
               Projects
             </a></span>
             <span className="navItems link">  <i className="fa fa-angle-double-right fa-2x Arrow"></i>  <a
-              className=""
+              className="navText"
               title="Contact"
               name="Contact"
-              onClick={() => handleView("about")}
+              href="#contact"
             >
               Contact
             </a></span>

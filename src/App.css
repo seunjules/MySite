@@ -57,6 +57,7 @@
 .landingPage:hover {
   cursor: all-scroll;
 }
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -139,6 +140,7 @@
   height: 100vh;
   background-size: cover;
 }
+
 .header2 {
   font-size: 5vw;
   font-weight: bold;
@@ -214,7 +216,7 @@
   position: absolute;
   top: 20%;
   overflow-y: scroll;
-  
+
 
 }
 
@@ -232,7 +234,7 @@
 }
 
 .projectContainer {
-  
+
   z-index: 2;
 }
 
@@ -281,8 +283,8 @@
 }
 
 .stretch {
-  display:inline-block;
-  transform:scale(2,1); 
+  display: inline-block;
+  transform: scale(2, 1);
 }
 
 p {
@@ -294,7 +296,7 @@ p {
 .projectTitle {
   background-color: #565656;
   color: transparent;
-  text-shadow: 5px 5px 8px rgba(255,255,255,0.7);
+  text-shadow: 5px 5px 8px rgba(255, 255, 255, 0.7);
   font-size: 400%;
   background-clip: text;
 }

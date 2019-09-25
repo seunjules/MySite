@@ -7,7 +7,7 @@ class Contacts extends Component {
 
   render() {
     return (
-      <div className="contact">
+      <div className="contact" id = "contact">
         <span className="header3">
           <span className="magnifyText">
             Contact me:

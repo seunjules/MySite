@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import "./nav.css"
+import "./nav.css";
 import Nav from "./nav";
 import About from "./components/about";
 import Projects from "./components/projects";
@@ -14,18 +14,22 @@ class App extends Component {
       <body>
         <div className="App">
           <div className="landingPage">
-            <span className="titleText">Hi, <br /> I am
-            SEUN MEJULE.<br />
-            FULL STACK<br />
-            WEB DEVELOPER<br /></span>
+            <span className="titleText">
+              Hi, <br /> I am SEUN MEJULE.
+              <br />
+              FULL STACK
+              <br />
+              WEB DEVELOPER
+              <br />
+            </span>
             <i className="fa fa-angle-double-down fa-5x downArrow animated bounce infinite navText delay-2s slow"></i>
           </div>
           <Nav />
-          <div className = "parallax"></div>
+          <div className="parallax"></div>
           <About />
-          <div className = "parallax2"></div>
+          <div className="parallax2"></div>
           <Projects />
-          <div className = "parallax3"></div>
+          <div className="parallax3"></div>
           <Contact />
         </div>
       </body>

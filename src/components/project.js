@@ -6,7 +6,6 @@ class Project extends Component {
   }
 
   render() {
-    console.log(this.props)
     return (
       <div className="project">
         <div className="tabletProject">
@@ -15,21 +14,16 @@ class Project extends Component {
             alt="Tablet View"
             className="tabletView"
           ></img>
-          <div className = "tabletTextArea">
-          <h2 className ="projectTitle">{this.props.title}</h2>
-          <p>
-            {this.props.firstText}
-
-          </p>
+          <div className="tabletTextArea">
+            <h2 className="projectTitle">{this.props.title}</h2>
+            <p>{this.props.firstText}</p>
           </div>
         </div>
         <div className="webProject">
           <img src={this.props.web} alt="Web View" className="webView"></img>
         </div>
         <div className="mobileProject">
-        <p className = "mobileText">
-            {this.props.secondText}
-          </p>
+          <p className="mobileText">{this.props.secondText}</p>
           <img
             src={this.props.mobile}
             alt="Mobile View"
