@@ -97,8 +97,8 @@
   position: relative;
   margin: 50px 50px 50px 50px;
   position: relative;
-  height: 70vh;
-  overflow-y: scroll;
+  height: 60vh;
+
 }
 
 .skillCard {
@@ -201,6 +201,7 @@
   font-size: 150%;
   margin: 10px;
   width: 60%;
+  margin-top: 70px;
 }
 
 .aboutTextContainer {
@@ -211,6 +212,7 @@
   align-items: center;
   position: absolute;
   top: 20%;
+  overflow-y: scroll;
   
 
 }
