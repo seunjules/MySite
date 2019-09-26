@@ -5,18 +5,18 @@ const Project = ({ firstText, secondText, mobile, web, title, tablet }) => {
   return (
     <div className="project">
       <div className="tabletProject">
-        <img src={tablet} alt="Tablet View" className="tabletView"></img>
+        <img src={tablet} alt="Tablet View" className="projectView"></img>
         <div className="tabletTextArea">
           <h2 className="projectTitle">{title}</h2>
           <p>{firstText}</p>
         </div>
       </div>
       <div className="webProject">
-        <img src={web} alt="Web View" className="webView"></img>
+        <img src={web} alt="Web View" className="projectView webView"></img>
       </div>
       <div className="mobileProject">
         <p className="mobileText">{secondText}</p>
-        <img src={mobile} alt="Mobile View" className="mobileView"></img>
+        <img src={mobile} alt="Mobile View" className="projectView mobileView"></img>
       </div>
     </div>
   );
