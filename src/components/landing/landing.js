@@ -5,7 +5,7 @@ const Landing = () => {
   return (
     <div className="landingPage">
       <span className="titleText">
-        Hi, <br /> I am SEUN MEJULE.
+        HI, <br /> I AM SEUN MEJULE.
         <br />
         FULL STACK
         <br />
