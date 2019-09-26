@@ -1,45 +1,7 @@
-.landingPage {
-  display: flex;
-  flex-direction: column;
-  width: 70%;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  text-align: center;
-  justify-content: center;
-  font-size: 0.7vw;
 
-}
 
 .nameText {
   font-size: 500%;
-}
-
-.titleText {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1000%;
-  background: url('./seun.jpg') no-repeat center;
-  background-size: cover;
-  -webkit-text-stroke: 2px transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-align: center;
-  font-weight: bolder;
-  background-attachment: fixed;
-  width: 100%;
-  height: 100vh;
-}
-
-
-
-
-.downArrow {
-  position: absolute;
-  left: -200px;
-  bottom: 50vh;
 }
 
 
@@ -58,81 +20,12 @@
   cursor: all-scroll;
 }
 
-.contact {
-  display: flex;
-  flex-direction: column;
-  width: 70%;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  justify-content: center;
-}
-
-
-.blurb {
-  overflow-wrap: break-word;
-  color: black;
-  margin: 10px;
-  font-size: 100%;
-}
-
-.blurbContainer {
-  width: 40%;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  border-bottom-right-radius: 25px;
-  border: solid transparent 2px;
-  border-right-color: black;
-  border-bottom-color: black;
-  border-top-color: black;
-}
-
-.about {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  background-color: white;
-  width: 70%;
-  position: relative;
-  margin: 50px 50px 50px 50px;
-  position: relative;
-  height: 60vh;
-  overflow-y: scroll;
-
-}
-
-.skillCard {
-  display: flex;
-  flex-direction: column;
-  -webkit-box-shadow: 6px 4px 15px -6px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 6px 4px 15px -6px rgba(0, 0, 0, 0.75);
-  box-shadow: 6px 4px 15px -6px rgba(0, 0, 0, 0.75);
-  padding: 20px;
-  position: absolute;
-  top: 25%;
-  right: 0%;
-  width: 35%;
-  background-color: rgb(247, 245, 245);
-}
-
-.cardHeader {
-  font-size: 300%;
-
-}
-
-.cardEntry {
-  margin: 10px;
-  text-decoration: underline solid red;
-  font-weight: bold;
-}
-
 .header {
   font-size: 5vw;
   font-weight: bold;
-  background: url('./seun.jpg') no-repeat center;
+  background: url('./assets/seun.jpg') no-repeat center;
   background-position: 0%;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-attachment: fixed;
@@ -144,9 +37,10 @@
 .header2 {
   font-size: 5vw;
   font-weight: bold;
-  background: url('./seun2.jpg') no-repeat center;
+  background: url('./assets/seun2.jpg') no-repeat center;
   background-position: 0%;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   background-attachment: fixed;
   width: 100%;
@@ -159,8 +53,9 @@
 .header3 {
   font-size: 1.4vw;
   font-weight: bold;
-  background: url('./seun3.jpg') no-repeat center;
+  background: url('./assets/seun3.jpg') no-repeat center;
   background-position: 0%;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-attachment: fixed;
@@ -171,12 +66,8 @@
   z-index: 1;
 }
 
-.red {
-  color: red;
-}
-
 .parallax {
-  background: url('./seun.jpg') no-repeat center;
+  background: url('./assets/seun.jpg') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   height: 250px;
@@ -184,7 +75,7 @@
 }
 
 .parallax2 {
-  background: url('./seun2.jpg') no-repeat center;
+  background: url('./assets/seun2.jpg') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   height: 250px;
@@ -192,7 +83,7 @@
 }
 
 .parallax3 {
-  background: url('./seun3.jpg') no-repeat center;
+  background: url('./assets/seun3.jpg') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   height: 250px;
@@ -200,122 +91,10 @@
   margin-top: 100px;
 }
 
-.aboutText {
-  font-size: 150%;
-  margin: 10px;
-  width: 60%;
-  margin-top: 70px;
-}
-
-.aboutTextContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  position: absolute;
-  top: 20%;
-  overflow-y: scroll;
-
-
-}
-
-.projects {
-  width: 70%;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  padding-top: 50px;
-
-}
-
-.project {
-  padding-top: 150px;
-}
-
-.projectContainer {
-
-  z-index: 2;
-}
-
-.tabletProject {
-  display: flex;
-  flex-direction: row;
-  padding-top: 50px;
-  height: 30%;
-  justify-content: space-between;
-  text-align: left;
-  align-items: center;
-}
-
-.webProject {
-  display: flex;
-  width: 100%;
-  padding-top: 50px;
-}
-
-.mobileProject {
-  display: flex;
-  width: 100%;
-  padding-top: 50px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.tabletView {
-  -webkit-box-shadow: 6px 4px 15px -6px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 6px 4px 15px -6px rgba(0, 0, 0, 0.75);
-  box-shadow: 6px 4px 15px -6px rgba(0, 0, 0, 0.75);
-}
-
-.webView {
-  width: 100%;
-  -webkit-box-shadow: 6px 4px 15px -6px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 6px 4px 15px -6px rgba(0, 0, 0, 0.75);
-  box-shadow: 6px 4px 15px -6px rgba(0, 0, 0, 0.75);
-}
-
-.mobileView {
-  width: 25%;
-  -webkit-box-shadow: 6px 4px 15px -6px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 6px 4px 15px -6px rgba(0, 0, 0, 0.75);
-  box-shadow: 6px 4px 15px -6px rgba(0, 0, 0, 0.75);
-}
-
-.stretch {
-  display: inline-block;
-  transform: scale(2, 1);
-}
-
 p {
   width: 700px;
   font-size: 150%;
   margin-right: 100px;
-}
-
-.projectTitle {
-  background-color: #565656;
-  color: transparent;
-  text-shadow: 5px 5px 8px rgba(255, 255, 255, 0.7);
-  font-size: 400%;
-  background-clip: text;
-}
-
-
-
-.contactsContainer {
-  display: flex;
-  flex-direction: column;
-}
-
-.contactDetails {
-  -webkit-text-fill-color: black;
-  font-weight: 100;
-  font-size: 80%;
-}
-
-.mobileText {
-  margin-left: 100px;
 }
 
 .magnifyText {

@@ -1,0 +1,16 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+  }
+  
+  .contactDetails {
+    -webkit-text-fill-color: black;
+    font-weight: 100;
+    font-size: 80%;
+  }

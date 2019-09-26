@@ -1,0 +1,33 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: white;
+    width: 70%;
+    position: relative;
+    margin: 50px 50px 50px 50px;
+    position: relative;
+    height: 60vh;
+    overflow-y: scroll;
+  
+  }
+
+  .aboutText {
+    font-size: 150%;
+    margin: 10px;
+    width: 60%;
+    margin-top: 70px;
+  }
+  
+  .aboutTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    overflow-y: scroll;
+  
+  
+  }

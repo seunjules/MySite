@@ -1,0 +1,59 @@
+.project {
+    padding-top: 150px;
+  }
+
+  .tabletProject {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    height: 30%;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+  }
+
+  .webProject {
+    display: flex;
+    width: 100%;
+    padding-top: 50px;
+  }
+  
+  .mobileProject {
+    display: flex;
+    width: 100%;
+    padding-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .tabletView {
+    -webkit-box-shadow: 6px 4px 15px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 4px 15px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 6px 4px 15px -6px rgba(0, 0, 0, 0.75);
+  }
+  
+  .webView {
+    width: 100%;
+    -webkit-box-shadow: 6px 4px 15px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 4px 15px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 6px 4px 15px -6px rgba(0, 0, 0, 0.75);
+  }
+  
+  .mobileView {
+    width: 25%;
+    -webkit-box-shadow: 6px 4px 15px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 4px 15px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 6px 4px 15px -6px rgba(0, 0, 0, 0.75);
+  }
+
+  .projectTitle {
+    background-color: #565656;
+    color: transparent;
+    text-shadow: 5px 5px 8px rgba(255, 255, 255, 0.7);
+    font-size: 400%;
+    background-clip: text;
+  }
+  
+  .mobileText {
+    margin-left: 100px;
+  }
