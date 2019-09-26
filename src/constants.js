@@ -6,7 +6,7 @@ export default {
                 provides a way for the producers to reach an agreement on prices, quantities and delivery
                 dates. CultivatR aims to reduce wastes in the produce and groceries indusrty, by changing the way we buy food`,
   cultivatrTech: `The Front End of the App is built using the React.js library. The server is written in Python,
-                using the Flask micro web framework. We used SQLAlchemy Object Relational Mapper. The databse
+                using the Flask micro web framework. We used SQLAlchemy Object Relational Mapper. The database
                  is a Postgres database`,
 
   julesMarketBlurb: `Jules market is an online clothing store. Users browse items by category
