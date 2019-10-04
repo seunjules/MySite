@@ -1,13 +1,6 @@
 .landingPage {
-    display: flex;
-    flex-direction: column;
     width: 70%;
     height: 100vh;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    text-align: center;
-    justify-content: center;
     font-size: 0.7vw;
   }
 
@@ -18,13 +11,13 @@
     font-size: 1000%;
     background: url('../../assets/seun.jpg') no-repeat center;
     background-size: cover;
+    background-attachment: fixed;
     -webkit-text-stroke: 2px transparent;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
     font-weight: bolder;
-    background-attachment: fixed;
     width: 100%;
     height: 100vh;
   }
